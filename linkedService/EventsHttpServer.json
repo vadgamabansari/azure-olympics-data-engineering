@@ -1,0 +1,13 @@
+{
+	"name": "EventsHttpServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/vadgamabansari/azure-olympics-data-engineering/refs/heads/main/data/paris_2024/events.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

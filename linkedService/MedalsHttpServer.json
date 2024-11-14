@@ -1,0 +1,13 @@
+{
+	"name": "MedalsHttpServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/vadgamabansari/azure-olympics-data-engineering/refs/heads/main/data/paris_2024/medals.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
